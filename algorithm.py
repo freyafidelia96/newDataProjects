@@ -31,3 +31,10 @@ for i in range(0, n):
     elif a[i] != x and i == n - 1:
         print("Nil")
 
+users = {"name": "Achi Fidelia Oreoluwa", "age": 20, "occupation": "student", "marital status": "Not searching"}
+print(users)
+
+for key, value in users.items():
+    print(f"{key}: {value}")
+
+
